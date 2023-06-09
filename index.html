@@ -1,0 +1,1348 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Paper Dashboard Pro React</title>
+	<!-- fevicon -->
+	<link href="img/fevicon.png" rel="icon" type="img/png">
+	<!-- font css -->
+	<link href="css/fonts.css" rel="stylesheet" type="text/css">
+	<!-- font-awesome icon -->
+	<link rel="stylesheet" href="css/all.min.css">
+	<!-- Bootstrap-icon -->
+	<link rel="stylesheet" href="css/bootstrap-icons.css">
+	<!-- bootstrap css -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<!-- Media-css -->
+	<link rel="stylesheet" href="css/media.css">
+	<!-- custom css -->
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div class="page-wrapper">
+		<div class="pagebody-wrapper d-flex">
+			<div class="side-bar p-3 min-vh-100 text-bg-dark">
+				<div class="logo">
+					<img src="img/react-logo.5bd77d01.png" alt="logo" width="30px">
+					<span class="ms-4 ps-2">CREATIVE TIM</span>
+				</div>
+				<div class="user">
+					<div class="photo d-flex justify-content-between">
+						<img src="img/pngegg.png" alt="profile" width="25px">
+						<span>Kelvin Kein</span>
+						<i class="fa-solid fa-caret-down" style="color: #d1d1d1;"></i>
+					</div>
+				</div>
+				<ul class="side-bar-detail">
+					<li>
+						<a href="#">
+							<i class="fa-solid fa-building-columns"></i>
+							<spans>DASHBOARD</spans>
+						</a>
+					</li>
+					<li class="slide py-1 mt-2 mb-2">
+						<a href="javascript:;" class="side-menu-item" data-bs-toggle="slide">
+							<i class="fa-regular fa-file-lines"></i>
+							<span>PAGES</span>
+						</a>
+						<ul class="slidemenu-list p-1">
+							<li>
+								<a href="#" class="slide-item p-1">
+									<spans class="mini justify-content">T</spans>
+									<spans class="large">Timeline</spans>
+								</a>
+							</li>
+							<li>
+								<a href="login.html" class="slide-item p-1">
+									<spans class="mini">L</spans>
+									<spans class="large">Login</spans>
+								</a>
+							</li>
+							<li>
+								<a href="register.html" class="slide-item p-1">
+									<spans class="mini">R</spans>
+									<spans class="large">Register</spans>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="slide-item p-1">
+									<spans class="mini">LS</spans>
+									<spans class="large">LockScreen</spans>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="slide-item p-1">
+									<spans class="mini">UP</spans>
+									<spans class="large">UserProfile</spans>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="slide py-1 mt-2 mb-2">
+						<a href="javascript:;" class="side-menu-item" data-bs-toggle="slide">
+							<i class="fa-solid fa-table-columns"></i>
+							<span>COMPONENTS</span>
+						</a>
+						<ul class="slidemenu-list p-1">
+							<li>
+								<a href="#" class="slide-item p-1">
+									<spans class="mini justify-content">B</spans>
+									<spans class="large">Buttons</spans>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="slide-item p-1">
+									<spans class="mini">P</spans>
+									<spans class="large">Panels</spans>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="slide-item p-1">
+									<spans class="mini">SA</spans>
+									<spans class="large">Sweet Alert</spans>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="slide-item p-1">
+									<spans class="mini">N</spans>
+									<spans class="large">Notifications</spans>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="slide-item p-1">
+									<spans class="mini">T</spans>
+									<spans class="large">Typography</spans>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="slide py-1 mt-2 mb-2">
+						<a href="javascript:;" class="side-menu-item" data-bs-toggle="slide">
+							<i class="fa-solid fa-pen-ruler"></i>
+							<span>FORMS</span>
+						</a>
+						<ul class="slidemenu-list p-1">
+							<li>
+								<a href="#" class="slide-item p-1">
+									<spans class="mini justify-content">RF</spans>
+									<spans class="large">Regular Forms</spans>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="slide-item p-1">
+									<spans class="mini">VF</spans>
+									<spans class="large">Validation Forms</spans>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="slide-item p-1">
+									<spans class="mini">W</spans>
+									<spans class="large">Wizards</spans>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="slide-item p-1">
+									<spans class="mini">N</spans>
+									<spans class="large">Notifications</spans>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="slide-item p-1">
+									<spans class="mini">T</spans>
+									<spans class="large">Typography</spans>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="slide py-1 mt-2 mb-2">
+						<a href="javascript:;" class="side-menu-item" data-bs-toggle="slide">
+							<i class="fa-solid fa-location-dot"></i>
+							<span>MAPS</span>
+						</a>
+						<ul class="slidemenu-list p-1">
+							<li>
+								<a href="#" class="slide-item p-1">
+									<spans class="mini justify-content">GM</spans>
+									<spans class="large">Google Maps</spans>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="slide-item p-1">
+									<spans class="mini">FSM</spans>
+									<spans class="large">Full Screen</spans>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="slide-item p-1">
+									<spans class="mini">VM</spans>
+									<spans class="large">Vector Map</spans>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="slide py-1 mt-2 mb-2">
+						<a href="javascript:;" class="side-menu-item" data-bs-toggle="slide">
+							<i class="fa-solid fa-table-list"></i>
+							<span>TABLES</span>
+						</a>
+						<ul class="slidemenu-list p-1">
+							<li>
+								<a href="#" class="slide-item p-1">
+									<spans class="mini justify-content">RT</spans>
+									<spans class="large">Regular Table</spans>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="slide-item p-1">
+									<spans class="mini">ET</spans>
+									<spans class="large">Extend Table</spans>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="slide-item p-1">
+									<spans class="mini">RT</spans>
+									<spans class="large">React Table</spans>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fa-solid fa-box-archive"></i>
+							<spans>WIDGETS</spans>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fa-solid fa-chart-area"></i>
+							<spans>CHARTS</spans>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fa-solid fa-calendar-days"></i>
+							<spans>CALENDAR</spans>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<header class="mainpage">
+			<div class="header pb-2 border-bottom">
+				<div class="content-item d-flex justify-content-between">
+					<div class="details d-flex">
+						<i class="fa-solid fa-angle-left lefts toggle-btn" id="menu-toggle"></i>
+						<p class=" m-0 ms-2 align-self-center">Paper Dashboard PRO React</p>
+					</div>
+					<div class="search d-flex col-4">
+						<form class="d-flex justify-content-end" role="search">
+							<input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+						</form>
+						<i class="fa-solid fa-table-columns pt-1"></i>
+						<i class="fa-solid fa-bell pt-1"></i>
+						<i class="fa-solid fa-gear pt-1"></i>
+					</div>
+				</div>
+			</div>
+			<div class="row main-content justify-content-center">
+				<div class="col-xl-3 mt-3 mb-2 col-lg-6 col-md-5 col-sm-8">
+					<div class="card p-3">
+						<div class="d-flex justify-content-between border-bottom pb-2">
+							<div class="img">
+								<img src="img/world.png" alt="world" class="ms-2 mt-1" width="55px">
+							</div>
+							<div class="details text-end">
+								<span class="text-secondary">Capacity</span>
+								<h3 class="text-dark">150GB</h3>
+							</div>
+						</div>
+						<div class="update p-2 ps-0 pb-0">
+							<i class="fa-solid fa-arrows-rotate"></i>
+							<span class="ms-1 text-secondary">Update Now</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 mt-3 mb-3 col-lg-6 col-md-5 col-sm-8">
+					<div class="card p-3">
+						<div class="d-flex justify-content-between border-bottom pb-2">
+							<div class="img">
+								<img src="img/icons8-coins-50.png" alt="coin" class="ms-2 mt-1" width="50px">
+							</div>
+							<div class="details text-end">
+								<span class="text-secondary">Revenue</span>
+								<h3 class="text-dark">$1,345</h3>
+							</div>
+						</div>
+						<div class="update p-2 ps-0 pb-0">
+							<i class="fa-regular fa-calendar"></i>
+							<span class="ms-1 text-secondary">Last day</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 mt-3 mb-3 col-lg-6 col-md-5 col-sm-8 ">
+					<div class="card p-3">
+						<div class="d-flex justify-content-between border-bottom pb-2">
+							<div class="img">
+								<img src="img/icons8-vector-100.png" alt="world" class="ms-2 mt-1" width="50px">
+							</div>
+							<div class="details text-end">
+								<span class="text-grey">Errors</span>
+								<h3 class="text-dark">23</h3>
+							</div>
+						</div>
+						<div class="update p-2 ps-0 pb-0">
+							<i class="fa-regular fa-clock"></i>
+							<span class="ms-1 text-secondary">in the last hour</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 mt-3 mb-3 col-lg-6 col-md-5 col-sm-8">
+					<div class="card p-3">
+						<div class="d-flex justify-content-between border-bottom pb-2">
+							<div class="img">
+								<img src="img/icons8-favorite-100.png" alt="world" class="ms-2 mt-1" width="50px">
+							</div>
+							<div class="details text-end">
+								<span class="text-grey">Followers</span>
+								<h3 class="text-dark">+45k</h3>
+							</div>
+						</div>
+						<div class="update p-2 ps-0 pb-0">
+							<i class="fa-solid fa-arrows-rotate"></i>
+							<span class="ms-1 text-secondary">Update Now</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-10 mt-3 mb-3 col-md-7">
+					<div class="card mini-chart">
+						<div class="card-header">
+							<div class="h-detail d-flex justify-content-between">
+								<h3 class="text-dark">$34,657</h3>
+								<button type="button" class="btn btn-success">+18%</button>
+							</div>
+							<div class="sub-head mt-3 ">
+								<span>TOTAL EARNINGS IN LAST TEN QUARTERS</span>
+							</div>
+						</div>
+						<div class="card-body">
+							<div id="chart1">
+
+							</div>
+							<div class="mini-chart-detail d-flex justify-content-between align-text-center">
+								<div>
+									<span>Financial Statistics</span>
+								</div>
+								<div>
+									<i class="fa-solid fa-circle-plus" style="color: #16bd09; font-size:30px;"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-10 mt-3 mb-3 col-md-7">
+					<div class="card mini-chart1">
+						<div class="card-header">
+							<div class="h-detail d-flex justify-content-between">
+								<h3 class="text-dark">169</h3>
+								<button type="button" class="btn btn-success">-14%</button>
+							</div>
+							<div class="sub-head mt-3 ">
+								<span>TOTAL SUBSCRIPTIONS IN LAST 7 DAYS</span>
+							</div>
+						</div>
+						<div class="card-body">
+							<div id="chart2">
+
+							</div>
+							<div class="mini-chart-detail d-flex justify-content-between align-text-center">
+								<div>
+									<span>View all members</span>
+								</div>
+								<div>
+									<i class="fa-solid fa-circle-play" style="color: #ef8157; font-size:30px;"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-10 mt-3 mb-3 col-md-7">
+					<div class="card mini-chart2">
+						<div class="card-header">
+							<div class="h-detail d-flex justify-content-between">
+								<h3 class="text-dark">8,960</h3>
+								<button type="button" class="btn btn-success">-51%</button>
+							</div>
+							<div class="sub-head mt-3 ">
+								<span>TOTAL DOWNLOADS IN LAST 6 YEARS</span>
+							</div>
+						</div>
+						<div class="card-body">
+							<div id="chart3">
+
+							</div>
+							<div class="mini-chart-detail d-flex justify-content-between align-text-center">
+								<div>
+									<span>View more details</span>
+								</div>
+								<div>
+									<i class="fa-solid fa-circle-info" style="color: #fbc658; font-size:30px;"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="map-table-detail col-xl-6">
+					<div class="card profile">
+						<div class="card-header mt-3">
+							<h3 class="text-dark">Global Sales by Top Locations</h3>
+							<span class="text-secondary">All Products That Were Shipped</span>
+						</div>
+						<div class="card-body">
+							<table class="table pb-0">
+								<tbody>
+									<tr class="pt-2 border-top">
+										<td>
+											<img src="img/f1.png" alt="map-1">
+										</td>
+										<td>
+											<span class="ms-4">USA</span>
+										</td>
+										<td class="text-end">
+											<span class="me-4">2.920</span>
+										</td>
+										<td>
+											<span>53.23%</span>
+										</td>
+									</tr>
+									<tr class="pt-2 border-top">
+										<td>
+											<img src="img/f2.png" alt="map-1">
+										</td>
+										<td>
+											<span class="ms-4">Germany</span>
+										</td>
+										<td class="text-end">
+											<span class="me-4">1.300</span>
+										</td>
+										<td>
+											<span>20.43%</span>
+										</td>
+									</tr>
+									<tr class="pt-2 border-top">
+										<td>
+											<img src="img/f3.png" alt="map-1">
+										</td>
+										<td>
+											<span class="ms-4">Australia</span>
+										</td>
+										<td class="text-end">
+											<span class="me-4">760</span>
+										</td>
+										<td>
+											<span>10.35%</span>
+										</td>
+									</tr>
+									<tr class="pt-2 border-top">
+										<td>
+											<img src="img/f4.png" alt="map-1">
+										</td>
+										<td>
+											<span class="ms-4">United Kingdom</span>
+										</td>
+										<td class="text-end">
+											<span class="me-4">690</span>
+										</td>
+										<td>
+											<span>7.87%</span>
+										</td>
+									</tr>
+									<tr class="pt-2 border-top">
+										<td>
+											<img src="img/f5.png" alt="map-1">
+										</td>
+										<td>
+											<span class="ms-4">Romania</span>
+										</td>
+										<td class="text-end">
+											<span class="me-4">600</span>
+										</td>
+										<td>
+											<span>5.94%</span>
+										</td>
+									</tr>
+									<tr class="pt-2 border-top">
+										<td>
+											<img src="img/f6.png" alt="map-1">
+										</td>
+										<td>
+											<span class="ms-4">Brasil</span>
+										</td>
+										<td class="text-end">
+											<span class="me-4">500</span>
+										</td>
+										<td>
+											<span>4.34%</span>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+				<div class="card map col-6 ">
+					<div class="card-body">
+						<img src="img/map.png" alt="map" width="500px" height="350px">
+					</div>
+				</div> -->
+			<!-- 	<div class="col-12 mt-3 mb-3 d-flex maps">
+					
+		
+				</div> -->
+				<div class="maps d-flex">
+					<div class="col-xl-6">
+						<div class="card profile">
+							<div class="card-header mt-3">
+								<h3 class="text-dark">Global Sales by Top Locations</h3>
+								<span class="text-secondary">All Products That Were Shipped</span>
+							</div>
+							<div class="card-body">
+								<table class="table pb-0">
+									<tbody>
+										<tr class="pt-2 border-top">
+											<td>
+												<img src="img/f1.png" alt="map-1">
+											</td>
+											<td>
+												<span class="ms-4">USA</span>
+											</td>
+											<td class="text-end">
+												<span class="me-4">2.920</span>
+											</td>
+											<td>
+												<span>53.23%</span>
+											</td>
+										</tr>
+										<tr class="pt-2 border-top">
+											<td>
+												<img src="img/f2.png" alt="map-1">
+											</td>
+											<td>
+												<span class="ms-4">Germany</span>
+											</td>
+											<td class="text-end">
+												<span class="me-4">1.300</span>
+											</td>
+											<td>
+												<span>20.43%</span>
+											</td>
+										</tr>
+										<tr class="pt-2 border-top">
+											<td>
+												<img src="img/f3.png" alt="map-1">
+											</td>
+											<td>
+												<span class="ms-4">Australia</span>
+											</td>
+											<td class="text-end">
+												<span class="me-4">760</span>
+											</td>
+											<td>
+												<span>10.35%</span>
+											</td>
+										</tr>
+										<tr class="pt-2 border-top">
+											<td>
+												<img src="img/f4.png" alt="map-1">
+											</td>
+											<td>
+												<span class="ms-4">United Kingdom</span>
+											</td>
+											<td class="text-end">
+												<span class="me-4">690</span>
+											</td>
+											<td>
+												<span>7.87%</span>
+											</td>
+										</tr>
+										<tr class="pt-2 border-top">
+											<td>
+												<img src="img/f5.png" alt="map-1">
+											</td>
+											<td>
+												<span class="ms-4">Romania</span>
+											</td>
+											<td class="text-end">
+												<span class="me-4">600</span>
+											</td>
+											<td>
+												<span>5.94%</span>
+											</td>
+										</tr>
+										<tr class="pt-2 border-top">
+											<td>
+												<img src="img/f6.png" alt="map-1">
+											</td>
+											<td>
+												<span class="ms-4">Brasil</span>
+											</td>
+											<td class="text-end">
+												<span class="me-4">500</span>
+											</td>
+											<td>
+												<span>4.34%</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+					<div class="maps-img">
+						<div class="map col-xl-6">
+							<div class="card-body">
+								<img src="img/map.png" width="550px"alt="map">
+							</div>
+						</div>
+					</div>
+				</div>
+					
+				<div class="col-xl-6 col-lg-10 col-md-9 mt-3 mb-3">
+					<div class="card profile">
+						<div class="card-header mt-3">
+							<h3 class="text-dark">Tasks</h3>
+							<span class="text-secondary">Backend Development</span>
+						</div>
+						<div class="card-body">
+							<table class="table pb-0">
+								<tbody>
+									<tr>
+										<td>
+											<label>
+												<input type="checkbox" class="form-check-inputs">
+												<span class="form-check-sign"></span>
+											</label>
+										</td>
+										<td class="task-img">
+											<img src="img/p1.jpg" alt="profile1">
+										</td>
+										<td>
+											<p>Sign contract for "What are conference organizers afraid of?"</p>
+										</td>
+										<td>
+											<div class="detail-stationery d-flex mt-2">
+												<img src="img/stationery-100.png" alt="stationery-100" width="30px">
+												<i class="fa-solid fa-xmark ms-3" style="font-size: 25px"></i>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<label>
+												<input type="checkbox" class="form-check-inputs">
+												<span class="form-check-sign"></span>
+											</label>
+										</td>
+										<td class="task-img">
+											<img src="img/p2.jpg" alt="profile1">
+										</td>
+										<td>
+											<p>Line From Great Russian Literature? Or E-mails From My Boss?</p>
+										</td>
+										<td>
+											<div class="detail-stationery d-flex mt-4">
+												<img src="img/stationery-100.png" alt="stationery-100" width="30px">
+												<i class="fa-solid fa-xmark ms-3" style="font-size: 25px"></i>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<label class="mt-3">
+												<input type="checkbox" class="form-check-inputs">
+												<span class="form-check-sign"></span>
+											</label>
+										</td>
+										<td class="task-img">
+											<img src="img/p3.jpg" class="mt-3" alt="profile1">
+										</td>
+										<td>
+											<p>Using dummy content or fake information in Web design process
+												result in products with unrealistic</p>
+										</td>
+										<td>
+											<div class="detail-stationery d-flex mt-4">
+												<img src="img/stationery-100.png" alt="stationery-100" width="30px">
+												<i class="fa-solid fa-xmark ms-3" style="font-size: 25px"></i>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<label class="mt-3">
+												<input type="checkbox" class="form-check-inputs">
+												<span class="form-check-sign"></span>
+											</label>
+										</td>
+										<td class="task-img">
+											<img src="img/p4.jpg" class="mt-3" alt="profile1">
+										</td>
+										<td>
+											<p> But I must explain to you how all this mistaken idea of denouncing
+												pleasure</p>
+										</td>
+										<td>
+											<div class="detail-stationery d-flex mt-3">
+												<img src="img/stationery-100.png" alt="stationery-100" width="30px">
+												<i class="fa-solid fa-xmark ms-3" style="font-size: 25px"></i>
+											</div>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="column-chart-detail border-top mt-3 ps-4 pt-3 pb-3">
+							<i class="fa-solid fa-check"></i>
+							<span class="ms-3">Data information certified</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6 col-lg-10 col-md-9 mt-3 mb-3">
+					<div class="card">
+						<div class="card-header mt-3">
+							<h3 class="text-dark">2021 Sales</h3>
+							<span class="text-secondary">All Products Including Taxes</span>
+						</div>
+						<div class="card-body">
+							<div id="column-chart">
+
+							</div>
+							<div class="column-chart-detail border-top">
+								<i class="fa-solid fa-check mt-3"></i>
+								<span class="ms-3">Data information certified</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 mt-3 mb-3 col-lg-6 col-md-5 col-sm-8">
+					<div class="card pie-chart">
+						<div class="card-header">
+							<span>Email Statistics</span>
+							<p>Last Performance</p>
+						</div>
+						<div class="card-body pt-0">
+							<div id="pie-chart1">
+
+							</div>
+							<div class="update p-2 ps-0 pb-0 border-top mt-2">
+								<i class="fa-regular fa-calendar"></i>
+								<span class="ms-1 text-secondary">Number of emails sent</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 mt-3 mb-3 col-lg-6 col-md-5 col-sm-8">
+					<div class="card pie-chart">
+						<div class="card-header">
+							<span>New Visitators</span>
+							<p>Out Of Total Number</p>
+						</div>
+						<div class="card-body pt-0">
+							<div id="pie-chart2">
+
+							</div>
+							<div class="update p-2 ps-0 pb-0 border-top mt-2">
+								<i class="fa-solid fa-check"></i>
+								<span class="ms-1 text-secondary">Campaig sent 2 day</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 mt-3 mb-3 col-lg-6 col-md-5 col-sm-8">
+					<div class="card pie-chart">
+						<div class="card-header">
+							<span>Orders</span>
+							<p>Total Number</p>
+						</div>
+						<div class="card-body pt-0">
+							<div id="pie-chart3">
+
+							</div>
+							<div class="update p-2 ps-0 pb-0 border-top mt-2">
+								<i class="fa-regular fa-clock"></i>
+								<span class="ms-1 text-secondary">Updated 3 minutes</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 mt-3 mb-3 col-lg-6 col-md-5 col-sm-8">
+					<div class="card pie-chart">
+						<div class="card-header">
+							<span>Subscriptions</span>
+							<p>Our Users</p>
+						</div>
+						<div class="card-body pt-0">
+							<div id="pie-chart4">
+
+							</div>
+							<div class="update p-2 ps-0 pb-0 border-top mt-2">
+								<i class="fa-solid fa-clock-rotate-left"></i>
+								<span class="ms-1 text-secondary">Total Users</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+	</div>
+	</div>
+
+	<!-- Js -->
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"
+		integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/apexcharts.js"></script>
+	<!--sidebar dropdown -->
+	<script>
+		$(document).ready(function () {
+			$(".slide > a").click(function () {
+				$(".slidemenu-list").slideUp(200);
+				if ($(this).parent().hasClass("active")) {
+					$(".slide").removeClass("active");
+					$(this).parent().removeClass("active");
+				}
+				else {
+					$(".slide").removeClass("active");
+					$(this).next(".slidemenu-list").slideDown(200);
+					$(this).parent().addClass("active");
+				}
+			});
+		});
+	</script>
+	<!--Sidebar Toggle -->
+	<script>
+		$('.toggle-btn').click(function () {
+			$('.side-bar').toggleClass('side');
+			$('.mainpage').toggleClass('mainpage-animation');
+		});
+	</script>
+
+	<!-- Basic-Line-Chart -->
+	<!--Chart-1 -->
+	<script>
+		var options = {
+			series: [{
+				name: "Desktops",
+				data: [500, 450, 400, 440, 540, 600, 530, 320, 400]
+			}],
+			chart: {
+				height: 160,
+				type: 'line',
+				zoom: {
+					enabled: false
+				}
+			},
+			dataLabels: {
+				enabled: false
+			},
+			stroke: {
+				curve: 'smooth',
+				colors: ['#6bd098']
+			},
+			grid: {
+				row: {
+					colors: ['#6bd098', 'transparent'], // takes an array which will be repeated on columns
+					opacity: 0
+				},
+			},
+			xaxis: {
+				categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct'],
+			}
+		};
+		var chart = new ApexCharts(document.querySelector("#chart1"), options);
+		chart.render();
+	</script>
+	<!--Chart-2 -->
+	<script>
+		var options = {
+			series: [{
+				name: "Desktops",
+				data: [0, 500, 700, 1200, 1050, 1300, 1400, 1500]
+			}],
+			chart: {
+				height: 160,
+				type: 'line',
+				zoom: {
+					enabled: false
+				}
+			},
+			dataLabels: {
+				enabled: false
+			},
+			stroke: {
+				curve: 'smooth',
+				colors: ['#ef8157']
+			},
+			grid: {
+				row: {
+					colors: ['#6bd098', 'transparent'], // takes an array which will be repeated on columns
+					opacity: 0
+				},
+			},
+			xaxis: {
+				categories: ['12pm', '3pm', '6pm', '9pm', '12am', '3am', '6am', '9am',],
+			}
+		};
+		var chart = new ApexCharts(document.querySelector("#chart2"), options);
+		chart.render();
+	</script>
+	<!--Chart-3 -->
+	<script>
+		var options = {
+			series: [{
+				name: "Desktops",
+				data: [70, 60, 40, 80, 110, 50, 20, 80, 90, 30]
+			}],
+			chart: {
+				height: 160,
+				type: 'line',
+				zoom: {
+					enabled: false
+				}
+			},
+			dataLabels: {
+				enabled: false
+			},
+			stroke: {
+				curve: 'smooth',
+				colors: ['#fbc658']
+			},
+			grid: {
+				row: {
+					colors: ['#6bd098', 'transparent'], // takes an array which will be repeated on columns
+					opacity: 0
+				},
+			},
+			xaxis: {
+
+				categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct'],
+			}
+		};
+		var chart = new ApexCharts(document.querySelector("#chart3"), options);
+		chart.render();
+	</script>
+	<!-- Column Chart -->
+	<script>
+		var options = {
+			series: [{
+				name: 'Tesla Model St',
+				data: [44, 55, 57, 56, 61, 58, 63, 60, 66, 44, 55, 57, 56, 61, 58, 63, 60, 66, 50, 80],
+
+			}, /* {
+          name: 'Revenue',
+          data: [ 58, 63, 60, 66, 44, 55, 57, 56, 61, 58, 63, 76, 85, 101, 98, 87, 105, 91, 114, 94, ]
+        }, */ {
+				name: 'BMW 5 Series',
+				data: [85, 101, 98, 87, 105, 91, 114, 94, 35, 41, 36, 26, 45, 48, 52, 53, 41, 65, 88, 110]
+			}],
+			chart: {
+				type: 'bar',
+				height: 370
+			},
+			plotOptions: {
+				bar: {
+					horizontal: false,
+					columnWidth: '65%',
+					endingShape: 'rounded'
+				},
+			},
+			dataLabels: {
+				enabled: false
+			},
+			stroke: {
+				show: true,
+				width: 3,
+				colors: ['transparent']
+			},
+			xaxis: {
+				categories: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20'],
+			},
+			fill: {
+				opacity: 1
+			},
+			tooltip: {
+				y: {
+					formatter: function (val) {
+						return "$ " + val + " thousands"
+					}
+				}
+			}
+		};
+		var chart = new ApexCharts(document.querySelector("#column-chart"), options);
+		chart.render();
+	</script>
+	<!-- Pie Chart -->
+	<!-- pie-1 -->
+	<script>
+		var options = {
+			chart: {
+				height: 280,
+				type: "radialBar"
+			},
+
+			series: [60],
+
+			plotOptions: {
+				radialBar: {
+					hollow: {
+						margin: 15,
+						size: "70%"
+					},
+
+					dataLabels: {
+						showOn: "always",
+						name: {
+							offsetY: -10,
+							show: false,
+							color: "#888",
+							fontSize: "13px"
+						},
+						value: {
+							color: "#111",
+							fontSize: "35px",
+							show: true,
+							color: "#888888",
+						}
+
+					}
+				}
+			},
+			legend: {
+				show: true,
+				showForSingleSeries: false,
+				showForNullSeries: true,
+				showForZeroSeries: true,
+				position: 'bottom',
+				horizontalAlign: 'center',
+				floating: false,
+				fontSize: '14px',
+				fontFamily: 'Montserrat',
+				fontWeight: 400,
+				formatter: undefined,
+				inverseOrder: false,
+				width: undefined,
+				height: undefined,
+				tooltipHoverFormatter: undefined,
+				customLegendItems: [],
+				offsetX: 0,
+				offsetY: 0,
+				markers: {
+					width: 12,
+					height: 12,
+					strokeWidth: 0,
+					strokeColor: '#4acccd',
+					fillColors: '#4acccd',
+					radius: 12,
+					customHTML: undefined,
+					onClick: undefined,
+					offsetX: 0,
+					offsetY: 0
+				},
+				labels: {
+					colors: undefined,
+					useSeriesColors: false
+				},
+			},
+			stroke: {
+				lineCap: "solid",
+				colors: "#17a2b8"
+			},
+			fill: {
+				type: "solid",
+				colors: "#4acccd",
+			},
+			labels: ["Open"]
+		};
+
+		var chart = new ApexCharts(document.querySelector("#pie-chart1"), options);
+
+		chart.render();
+
+	</script>
+	<!-- pie-2 -->
+	<script>
+		var options = {
+			chart: {
+				height: 280,
+				type: "radialBar"
+			},
+
+			series: [34],
+
+			plotOptions: {
+				radialBar: {
+					hollow: {
+						margin: 15,
+						size: "70%"
+					},
+
+					dataLabels: {
+						showOn: "always",
+						name: {
+							offsetY: -10,
+							show: false,
+							color: "#888",
+							fontSize: "13px"
+						},
+						value: {
+							color: "#111",
+							fontSize: "35px",
+							show: true,
+							color: "#888888",
+						}
+
+					}
+				}
+			},
+			legend: {
+				show: true,
+				showForSingleSeries: false,
+				showForNullSeries: true,
+				showForZeroSeries: true,
+				position: 'bottom',
+				horizontalAlign: 'center',
+				floating: false,
+				fontSize: '14px',
+				fontFamily: 'Montserrat',
+				fontWeight: 400,
+				formatter: undefined,
+				inverseOrder: false,
+				width: undefined,
+				height: undefined,
+				tooltipHoverFormatter: undefined,
+				customLegendItems: [],
+				offsetX: 0,
+				offsetY: 0,
+				markers: {
+					width: 12,
+					height: 12,
+					strokeWidth: 0,
+					strokeColor: '#4acccd',
+					fillColors: '#4acccd',
+					radius: 12,
+					customHTML: undefined,
+					onClick: undefined,
+					offsetX: 0,
+					offsetY: 0
+				},
+				labels: {
+					colors: undefined,
+					useSeriesColors: false
+				},
+			},
+			stroke: {
+				lineCap: "solid",
+				colors: "#fcc468"
+			},
+			fill: {
+				type: "solid",
+				colors: "#fcc468",
+			},
+			labels: ["Visited"]
+		};
+
+		var chart = new ApexCharts(document.querySelector("#pie-chart2"), options);
+
+		chart.render();
+
+	</script>
+	<!-- pie-3 -->
+	<script>
+		var options = {
+			chart: {
+				height: 280,
+				type: "radialBar"
+			},
+
+			series: [80],
+
+			plotOptions: {
+				radialBar: {
+					hollow: {
+						margin: 15,
+						size: "70%"
+					},
+
+					dataLabels: {
+						showOn: "always",
+						name: {
+							offsetY: -10,
+							show: false,
+							color: "#888",
+							fontSize: "13px"
+						},
+						value: {
+							color: "#111",
+							fontSize: "35px",
+							show: true,
+							color: "#888888",
+						}
+
+					}
+				}
+			},
+			legend: {
+				show: true,
+				showForSingleSeries: false,
+				showForNullSeries: true,
+				showForZeroSeries: true,
+				position: 'bottom',
+				horizontalAlign: 'center',
+				floating: false,
+				fontSize: '14px',
+				fontFamily: 'Montserrat',
+				fontWeight: 400,
+				formatter: undefined,
+				inverseOrder: false,
+				width: undefined,
+				height: undefined,
+				tooltipHoverFormatter: undefined,
+				customLegendItems: [],
+				offsetX: 0,
+				offsetY: 0,
+				markers: {
+					width: 12,
+					height: 12,
+					strokeWidth: 0,
+					strokeColor: '#4acccd',
+					fillColors: '#4acccd',
+					radius: 12,
+					customHTML: undefined,
+					onClick: undefined,
+					offsetX: 0,
+					offsetY: 0
+				},
+				labels: {
+					colors: undefined,
+					useSeriesColors: false
+				},
+			},
+			stroke: {
+				lineCap: "solid",
+				colors: "#17a2b8"
+			},
+			fill: {
+				type: "solid",
+				colors: "#f17e5d",
+			},
+			labels: ["Completed"]
+		};
+
+		var chart = new ApexCharts(document.querySelector("#pie-chart3"), options);
+
+		chart.render();
+
+	</script>
+	<!-- pie-4 -->
+	<script>
+		var options = {
+			chart: {
+				height: 280,
+				type: "radialBar"
+			},
+
+			series: [11],
+
+			plotOptions: {
+				radialBar: {
+					hollow: {
+						margin: 15,
+						size: "70%"
+					},
+
+					dataLabels: {
+						showOn: "always",
+						name: {
+							offsetY: -10,
+							show: false,
+							color: "#888",
+							fontSize: "13px"
+						},
+						value: {
+							color: "#111",
+							fontSize: "35px",
+							show: true,
+							color: "#888888",
+						}
+
+					}
+				}
+			},
+			legend: {
+				show: true,
+				showForSingleSeries: false,
+				showForNullSeries: true,
+				showForZeroSeries: true,
+				position: 'bottom',
+				horizontalAlign: 'center',
+				floating: false,
+				fontSize: '14px',
+				fontFamily: 'Montserrat',
+				fontWeight: 400,
+				formatter: undefined,
+				inverseOrder: false,
+				width: undefined,
+				height: undefined,
+				tooltipHoverFormatter: undefined,
+				customLegendItems: [],
+				offsetX: 0,
+				offsetY: 0,
+				markers: {
+					width: 12,
+					height: 12,
+					strokeWidth: 0,
+					strokeColor: '#4acccd',
+					fillColors: '#4acccd',
+					radius: 12,
+					customHTML: undefined,
+					onClick: undefined,
+					offsetX: 0,
+					offsetY: 0
+				},
+				labels: {
+					colors: undefined,
+					useSeriesColors: false
+				},
+			},
+			stroke: {
+				lineCap: "solid",
+				colors: "#17a2b8"
+			},
+			fill: {
+				type: "solid",
+				colors: "#66615b",
+			},
+			labels: ["Open"]
+		};
+
+		var chart = new ApexCharts(document.querySelector("#pie-chart4"), options);
+
+		chart.render();
+
+	</script>
+
+
+</body>
+<footer class="d-flex justify-content-between mb-3">
+	<div class="f-details">
+		<span>CREATIVE TIM</span>
+		<span>BLOG</span>
+		<span>LICENSES</span>
+	</div>
+	<div class="copy-details me-4">
+		<span>© 2023, made with <i class="fa-solid fa-heart fa-beat" style="color: #ff0000;"></i> by Creative Tim
+		</span>
+	</div>
+</footer>
+
+</html>
